@@ -1,0 +1,203 @@
+severity	threat	port	name	cves	description
+10.0	Critical	8787/tcp	Distributed Ruby (dRuby/DRb) Multiple RCE Vulnerabilities		The service is running in $SAFE >= 1 mode. However it is still possible to run arbitrary syscall commands on the remote host. Sending an invalid sysca
+10.0	Critical	general/tcp	Operating System (OS) End of Life (EOL) Detection		The "Ubuntu" Operating System on the remote host has reached the end of life.  CPE:               cpe:/o:canonical:ubuntu_linux:8.04 Installed version
+10.0	Critical	8180/tcp	Apache Tomcat Server Administration Default/Hardcoded Credentials (HTTP)	CVE-2009-3099,CVE-2009-3548,CVE-2009-3843,CVE-2009-4188,CVE-2009-4189,CVE-2010-0557,CVE-2010-4094	It was possible to login into the Tomcat Server Administration at http://192.168.56.101:8180/admin/index.jsp using user "tomcat" with password "tomcat
+10.0	Critical	513/tcp	rlogin Passwordless Login		It was possible to gain root access without a password.
+10.0	Critical	80/tcp	TWiki < 4.2.4 Multiple XSS / Command Execution Vulnerabilities	CVE-2008-5304,CVE-2008-5305	Installed version: 01.Feb.2003 Fixed version:     4.2.4
+10.0	Critical	512/tcp	The rexec service is running	CVE-1999-0618	The rexec service was detected on the target system.
+10.0	Critical	1524/tcp	Possible Backdoor: Ingreslock		The service is answering to an 'id;' command with the following response: uid=0(root) gid=0(root)
+9.8	Critical	8180/tcp	HTTP Brute Force Logins With Default Credentials Reporting	CVE-1999-0501,CVE-1999-0502,CVE-1999-0507,CVE-1999-0508,CVE-2004-1791,CVE-2023-32645,CVE-2024-9643,CVE-2024-20439,CVE-2024-27170,CVE-2024-28987,CVE-2024-46328,CVE-2026-2635,CVE-2026-35905,CVE-2026-44825	It was possible to login with the following credentials (<URL>:<User>:<Password>:<HTTP status code>)  http://192.168.56.101:8180/host-manager/html:tom
+9.8	Critical	21/tcp	vsftpd Compromised Source Packages Backdoor Vulnerability - Active Check	CVE-2011-2523	
+9.8	Critical	8180/tcp	Apache Tomcat Manager/Host Manager/Server Status Default/Hardcoded Credentials (HTTP)	CVE-2009-3099,CVE-2009-3548,CVE-2009-3843,CVE-2009-4188,CVE-2009-4189,CVE-2010-0557,CVE-2010-4094,CVE-2016-20026,CVE-2020-26510,CVE-2021-32588	It was possible to login into the Tomcat Host Manager at http://192.168.56.101:8180/host-manager/html using user "tomcat" with password "tomcat"  It w
+9.8	Critical	3306/tcp	MySQL / MariaDB Default Credentials (MySQL Protocol)	CVE-2001-0645,CVE-2002-1809,CVE-2004-1532,CVE-2004-2357,CVE-2006-1451,CVE-2007-2554,CVE-2007-6081,CVE-2009-0919,CVE-2014-3419,CVE-2015-4669,CVE-2016-6531,CVE-2018-15719,CVE-2024-22901,CVE-2026-47847	It was possible to login as user "root" with an empty password.
+9.8	Critical	8009/tcp	Apache Tomcat AJP RCE Vulnerability (Ghostcat) - Active Check	CVE-2020-1938	It was possible to read the file "/WEB-INF/web.xml" through the AJP connector.  Result:  AB 8\x0004 Ã\x0088 \x0002OK  \x0001 \x000CContent-Type  \x001
+9.8	Critical	6200/tcp	vsftpd Compromised Source Packages Backdoor Vulnerability - Active Check	CVE-2011-2523	
+9.3	Critical	3632/tcp	DistCC RCE Vulnerability (CVE-2004-2687)	CVE-2004-2687	It was possible to execute the "id" command.  Result: uid=1(daemon) gid=1(daemon)
+9.0	Critical	5432/tcp	PostgreSQL Default Credentials (PostgreSQL Protocol)		It was possible to login as user postgres with password "postgres".
+9.0	Critical	5900/tcp	VNC Brute Force Login	CVE-2026-65313	It was possible to connect to the VNC server with the password: password
+7.5	High	59250/tcp	Java RMI Server Insecure Default Configuration RCE Vulnerability - Active Check	CVE-2011-3556	By doing an RMI request it was possible to trigger the vulnerability and make the remote host send a request back to the scanner host (Details on the 
+7.5	High	21/tcp	FTP Brute Force Logins With Default Credentials Reporting	CVE-1999-0501,CVE-1999-0502,CVE-1999-0507,CVE-1999-0508,CVE-2001-1594,CVE-2013-7404,CVE-2014-9198,CVE-2015-7261,CVE-2016-8731,CVE-2017-8218,CVE-2018-9068,CVE-2018-17771,CVE-2018-19063,CVE-2018-19064,CVE-2018-25147,CVE-2020-36915	It was possible to login with the following credentials <User>:<Password>  msfadmin:msfadmin postgres:postgres service:service user:user
+7.5	High	2121/tcp	FTP Brute Force Logins With Default Credentials Reporting	CVE-1999-0501,CVE-1999-0502,CVE-1999-0507,CVE-1999-0508,CVE-2001-1594,CVE-2013-7404,CVE-2014-9198,CVE-2015-7261,CVE-2016-8731,CVE-2017-8218,CVE-2018-9068,CVE-2018-17771,CVE-2018-19063,CVE-2018-19064,CVE-2018-25147,CVE-2020-36915	It was possible to login with the following credentials <User>:<Password>  msfadmin:msfadmin postgres:postgres service:service user:user
+7.5	High	1099/tcp	Java RMI Server Insecure Default Configuration RCE Vulnerability - Active Check	CVE-2011-3556	By doing an RMI request it was possible to trigger the vulnerability and make the remote host send a request back to the scanner host (Details on the 
+7.5	High	514/tcp	rsh Unencrypted Cleartext Login	CVE-1999-0651	The rsh service currently has issues with name resolution and is not allowing connections from this host.
+7.5	High	80/tcp	EasyPHP Webserver <= 12.1 Multiple Vulnerabilities - Active Check		Vulnerable URL: http://192.168.56.101/phpinfo.php Concluded from:   <title>phpinfo()</title><meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" /
+7.5	High	513/tcp	The rlogin service is running	CVE-1999-0651	The rlogin service is running on the target system.
+7.5	High	80/tcp	PHP < 5.3.13, 5.4.x < 5.4.3 Multiple Vulnerabilities - Active Check	CVE-2012-1823,CVE-2012-2311,CVE-2012-2336,CVE-2012-2335	By doing the following HTTP POST request:  "HTTP POST" body : <?php phpinfo();?> URL              : http://192.168.56.101/cgi-bin/php?%2D%64+%61%6C%6C
+7.5	High	80/tcp	Test HTTP dangerous methods		We could upload the following files via the PUT method at this web server:  http://192.168.56.101/dav/puttest369384905.html  We could delete the follo
+7.4	High	5432/tcp	SSL/TLS: OpenSSL CCS Man in the Middle Security Bypass Vulnerability	CVE-2014-0224	
+6.8	Medium	80/tcp	TWiki Cross-Site Request Forgery Vulnerability (Sep 2010)	CVE-2009-4898	Installed version: 01.Feb.2003 Fixed version:     4.3.2
+6.8	Medium	25/tcp	Multiple Vendors STARTTLS Implementation Plaintext Arbitrary Command Injection Vulnerability	CVE-2011-0411,CVE-2011-1430,CVE-2011-1431,CVE-2011-1432,CVE-2011-1506,CVE-2011-1575,CVE-2011-1926,CVE-2011-2165	
+6.4	Medium	21/tcp	Anonymous FTP Login Reporting	CVE-1999-0497	It was possible to login to the remote FTP service with the following anonymous account(s):  anonymous:anonymous@example.com ftp:anonymous@example.com
+6.1	Medium	80/tcp	TWiki < 6.1.0 XSS Vulnerability	CVE-2018-20212	Installed version: 01.Feb.2003 Fixed version:     6.1.0
+6.1	Medium	80/tcp	jQuery < 1.9.0 XSS Vulnerability	CVE-2012-6708	Installed version: 1.3.2 Fixed version:     1.9.0 Installation path / port:       /mutillidae/javascript/ddsmoothmenu/jquery.min.js  Detection info (s
+6.0	Medium	80/tcp	TWiki CSRF Vulnerability	CVE-2009-1339	Installed version: 01.Feb.2003 Fixed version:     4.3.1
+6.0	Medium	445/tcp	Samba 3.0.0 <= 3.0.25rc3 MS-RPC Remote Shell Command Execution Vulnerability - Active Check	CVE-2007-2447	By sending a special crafted SMB request it was possible to execute ``ping -p 5f4f70656e564153565431383033335f -c50 192.168.56.102`` on the remote hos
+5.9	Medium	5432/tcp	SSL/TLS: Deprecated SSLv2 and SSLv3 Protocol Detection	CVE-2016-0800,CVE-2014-3566	In addition to TLSv1.0+ the service is also providing the deprecated SSLv3 protocol and supports one or more ciphers. Those supported ciphers can be f
+5.9	Medium	25/tcp	SSL/TLS: Deprecated SSLv2 and SSLv3 Protocol Detection	CVE-2016-0800,CVE-2014-3566	In addition to TLSv1.0+ the service is also providing the deprecated SSLv2 and SSLv3 protocols and supports one or more ciphers. Those supported ciphe
+5.9	Medium	5432/tcp	SSL/TLS: Report Weak Cipher Suites	CVE-2013-2566,CVE-2015-2808,CVE-2015-4000	'Weak' cipher suites accepted by this service via the SSLv3 protocol:  TLS_RSA_WITH_RC4_128_SHA  'Weak' cipher suites accepted by this service via the
+5.8	Medium	80/tcp	HTTP Debugging Methods (TRACE/TRACK) Enabled	CVE-2003-1567,CVE-2004-2320,CVE-2004-2763,CVE-2005-3398,CVE-2006-4683,CVE-2007-3008,CVE-2008-7253,CVE-2009-2823,CVE-2010-0386,CVE-2012-2223,CVE-2014-7883	The web server has the following HTTP methods enabled: TRACE
+5.3	Medium	5432/tcp	SSL/TLS: Server Certificate / Certificate in Chain with RSA keys less than 2048 bits		The remote SSL/TLS server is using the following certificate(s) with a RSA key with less than 2048 bits (public-key-size:public-key-algorithm:serial:i
+5.3	Medium	25/tcp	SSL/TLS: Server Certificate / Certificate in Chain with RSA keys less than 2048 bits		The remote SSL/TLS server is using the following certificate(s) with a RSA key with less than 2048 bits (public-key-size:public-key-algorithm:serial:i
+5.3	Medium	22/tcp	Weak Host Key Algorithm(s) (SSH)		The remote SSH server supports the following weak host key algorithm(s):  host key algorithm | Description -------------------------------------------
+5.3	Medium	22/tcp	Weak Key Exchange (KEX) Algorithm(s) Supported (SSH)		The remote SSH server supports the following weak KEX algorithm(s):  KEX algorithm                      | Reason -------------------------------------
+5.3	Medium	80/tcp	phpinfo() Output Reporting (HTTP)	CVE-2008-0149,CVE-2023-49282,CVE-2023-49283,CVE-2024-10486	The following files are calling the function phpinfo() which disclose potentially sensitive information:  http://192.168.56.101/mutillidae/phpinfo.php
+5.0	Medium	80/tcp	QWikiwiki directory traversal vulnerability	CVE-2005-0283	Vulnerable URL: http://192.168.56.101/mutillidae/index.php?page=../../../../../../../../../../../etc/passwd%00
+5.0	Medium	25/tcp	SSL/TLS: Renegotiation DoS Vulnerability (CVE-2011-1473, CVE-2011-5094)	CVE-2011-1473,CVE-2011-5094	The following indicates that the remote SSL/TLS service is affected:  Protocol Version | Successful re-done SSL/TLS handshakes (Renegotiation) over an
+5.0	Medium	80/tcp	/doc directory browsable	CVE-1999-0678	Vulnerable URL: http://192.168.56.101/doc/
+5.0	Medium	25/tcp	Check if Mailserver answer to VRFY and EXPN requests		'VRFY root' produces the following answer: 252 2.0.0 root
+5.0	Medium	5432/tcp	SSL/TLS: Renegotiation DoS Vulnerability (CVE-2011-1473, CVE-2011-5094)	CVE-2011-1473,CVE-2011-5094	The following indicates that the remote SSL/TLS service is affected:  Protocol Version | Successful re-done SSL/TLS handshakes (Renegotiation) over an
+5.0	Medium	25/tcp	SSL/TLS: Certificate Expired		The certificate of the remote service expired on 2010-04-16 14:07:45.  Certificate details: fingerprint (SHA-1)             | ED093088706603BFD5DC2373
+5.0	Medium	5432/tcp	SSL/TLS: Certificate Expired		The certificate of the remote service expired on 2010-04-16 14:07:45.  Certificate details: fingerprint (SHA-1)             | ED093088706603BFD5DC2373
+5.0	Medium	80/tcp	awiki <= 20100125 Multiple LFI Vulnerabilities - Active Check		Vulnerable URL: http://192.168.56.101/mutillidae/index.php?page=/etc/passwd
+4.8	Medium	80/tcp	Cleartext Transmission of Sensitive Information via HTTP		The following input fields were identified (URL:input name):  http://192.168.56.101/dvwa/login.php:password http://192.168.56.101/phpMyAdmin/:pma_pass
+4.8	Medium	2121/tcp	FTP Unencrypted Cleartext Login		The remote FTP service accepts logins without a previous sent 'AUTH TLS' command. Response(s):  Non-anonymous sessions: 331 Password required for open
+4.8	Medium	21/tcp	FTP Unencrypted Cleartext Login		The remote FTP service accepts logins without a previous sent 'AUTH TLS' command. Response(s):  Non-anonymous sessions: 331 Please specify the passwor
+4.8	Medium	23/tcp	Telnet Unencrypted Cleartext Login		
+4.8	Medium	5900/tcp	VNC Server Unencrypted Data Transmission		The VNC server provides the following insecure or cryptographically weak Security Type(s):  2 (VNC authentication)
+4.8	Medium	8180/tcp	Cleartext Transmission of Sensitive Information via HTTP		The following URLs requires Basic Authentication (URL:realm name):  http://192.168.56.101:8180/host-manager/html:"Tomcat Host Manager Application" htt
+4.3	Medium	80/tcp	Apache HTTP Server 'httpOnly' Cookie Information Disclosure Vulnerability	CVE-2012-0053	
+4.3	Medium	25/tcp	SSL/TLS: Deprecated TLSv1.0 and TLSv1.1 Protocol Detection	CVE-2011-3389,CVE-2015-0204,CVE-2023-41928,CVE-2024-41270,CVE-2025-3200	The service is only providing the deprecated TLSv1.0 protocol and supports one or more ciphers. Those supported ciphers can be found in the 'SSL/TLS: 
+4.3	Medium	5432/tcp	SSL/TLS: Deprecated TLSv1.0 and TLSv1.1 Protocol Detection	CVE-2011-3389,CVE-2015-0204,CVE-2023-41928,CVE-2024-41270,CVE-2025-3200	The service is only providing the deprecated TLSv1.0 protocol and supports one or more ciphers. Those supported ciphers can be found in the 'SSL/TLS: 
+4.3	Medium	80/tcp	phpMyAdmin 'error.php' Cross Site Scripting Vulnerability	CVE-2010-4480	
+4.3	Medium	22/tcp	Weak Encryption Algorithm(s) Supported (SSH)		The remote SSH server supports the following weak client-to-server encryption algorithm(s):  3des-cbc aes128-cbc aes192-cbc aes256-cbc arcfour arcfour
+4.3	Medium	80/tcp	jQuery < 1.6.3 XSS Vulnerability	CVE-2011-4969	Installed version: 1.3.2 Fixed version:     1.6.3 Installation path / port:       /mutillidae/javascript/ddsmoothmenu/jquery.min.js  Detection info (s
+4.3	Medium	25/tcp	SSL/TLS: RSA Temporary Key Handling 'RSA_EXPORT' Downgrade Issue (FREAK)	CVE-2015-0204	'RSA_EXPORT' cipher suites accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA TLS_RSA_EXPORT_WITH_DES40_CBC_SHA T
+4.0	Medium	25/tcp	SSL/TLS: Certificate Signed Using A Weak Signature Algorithm		The following certificates are part of the certificate chain but using insecure signature algorithms:  Subject:              1.2.840.113549.1.9.1=#726
+4.0	Medium	5432/tcp	SSL/TLS: Diffie-Hellman Key Exchange Insufficient DH Group Strength Vulnerability		Server Temporary Key Size: 1024 bits
+4.0	Medium	5432/tcp	SSL/TLS: Certificate Signed Using A Weak Signature Algorithm		The following certificates are part of the certificate chain but using insecure signature algorithms:  Subject:              1.2.840.113549.1.9.1=#726
+4.0	Medium	25/tcp	SSL/TLS: Diffie-Hellman Key Exchange Insufficient DH Group Strength Vulnerability		Server Temporary Key Size: 1024 bits
+3.7	Low	25/tcp	SSL/TLS: 'DHE_EXPORT' MITM Security Bypass Vulnerability (LogJam)	CVE-2015-4000	'DHE_EXPORT' cipher suites accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA TLS_DH_anon_EXPORT_WITH_DES40_CBC_S
+3.4	Low	5432/tcp	SSL/TLS: SSLv3 Protocol CBC Cipher Suites Information Disclosure Vulnerability (POODLE)	CVE-2014-3566	
+3.4	Low	25/tcp	SSL/TLS: SSLv3 Protocol CBC Cipher Suites Information Disclosure Vulnerability (POODLE)	CVE-2014-3566	
+2.6	Low	22/tcp	Weak MAC Algorithm(s) Supported (SSH)		The remote SSH server supports the following weak client-to-server MAC algorithm(s):  hmac-md5 hmac-md5-96 hmac-sha1-96 umac-64@openssh.com   The remo
+2.6	Low	general/tcp	TCP Timestamps Information Disclosure		It was detected that the host implements RFC1323/RFC7323.  The following timestamps were retrieved with a delay of 1 seconds in-between: Packet 1: 446
+2.1	Low	general/icmp	ICMP Timestamp Reply Information Disclosure	CVE-1999-0524	The following response / ICMP packet has been received: - ICMP Type: 14 - ICMP Code: 0
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0					
+0.0	Log	514/tcp	rsh Service Detection		A rsh service is running at this port.
+0.0	Log	general/tcp	Hostname Determination Reporting		Hostname determination for IP 192.168.56.101:  Hostname|Source 192.168.56.101|IP-address
+0.0	Log	general/CPE-T	CPE Inventory		192.168.56.101|cpe:/a:apache:http_server:2.2.8 192.168.56.101|cpe:/a:apache:struts 192.168.56.101|cpe:/a:apache:tomcat:5.5.25 192.168.56.101|cpe:/a:ie
+0.0	Log	25/tcp	SSL/TLS: Report Non Weak Cipher Suites		'Weak' cipher suites accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA TLS
+0.0					
+0.0	Log	5432/tcp	SSL/TLS: Report Non Weak Cipher Suites		'Weak' cipher suites accepted by this service via the SSLv3 protocol:  TLS_RSA_WITH_RC4_128_SHA  'Non Weak' cipher suites accepted by this service via
+0.0					
+0.0	Log	25/tcp	SSL/TLS: Report Supported Cipher Suites		'Strong' cipher suites accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_WITH_AES_256_CBC_SHA TLS_DH_anon_WITH_AES_256_CBC_SHA  'Medium' c
+0.0	Log	5432/tcp	SSL/TLS: Report Supported Cipher Suites		'Strong' cipher suites accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_WITH_AES_256_CBC_SHA  'Medium' cipher suites accepted by this ser
+0.0	Log	25/tcp	SSL/TLS: Report Weak Cipher Suites	CVE-2013-2566,CVE-2015-2808,CVE-2015-4000	NOTE: No severity for SMTP services with 'Opportunistic TLS' and weak cipher suites on port 25/tcp is reported. If too strong cipher suites are config
+0.0					
+0.0	Log	80/tcp	phpMyAdmin Detection (HTTP)		Detected phpMyAdmin  Version:       3.1.1 Location:      /phpMyAdmin CPE:           cpe:/a:phpmyadmin:phpmyadmin:3.1.1  Concluded from version/product
+0.0	Log	25/tcp	SSL/TLS: Safe/Secure Renegotiation Support Status		Protocol Version | Safe/Secure Renegotiation Support Status ------------------------------------------------------------------------------------------
+0.0	Log	25/tcp	SSL/TLS: Untrusted Certificate Detection		The remote SSL/TLS server is using the following certificate(s) which failed the verification against the system wide trust store (serial:issuer):  00
+0.0	Log	5432/tcp	SSL/TLS: Untrusted Certificate Detection		The remote SSL/TLS server is using the following certificate(s) which failed the verification against the system wide trust store (serial:issuer):  00
+0.0	Log	5432/tcp	SSL/TLS: Safe/Secure Renegotiation Support Status		Protocol Version | Safe/Secure Renegotiation Support Status ------------------------------------------------------------------------------------------
+0.0	Log	6000/tcp	X Server Detection		Detected X Windows Server  Version:       11.0 Location:      6000/tcp CPE:           cpe:/a:x.org:x11:11.0  Concluded from version/product identifica
+0.0	Log	80/tcp	'favicon.ico' Based Fingerprinting (HTTP)		The following apps/services were identified:  "phpmyadmin (2.11.8.1 - 4.2.x)" fingerprinted by the file: "http://192.168.56.101/phpMyAdmin/favicon.ico
+0.0	Log	8180/tcp	'favicon.ico' Based Fingerprinting (HTTP)		The following apps/services were identified:  "Apache Tomcat (5.5.26), Alfresco Community" fingerprinted by the file: "http://192.168.56.101:8180/favi
+0.0	Log	80/tcp	HTTP Security Headers Detection		Missing Headers                   | More Information -------------------------------------------------------------------------------------------------
+0.0	Log	80/tcp	TWiki Version Detection		Detected TWiki  Version:       01.Feb.2003 Location:      /twiki/bin CPE:           cpe:/a:twiki:twiki:01.Feb.2003  Concluded from version/product ide
+0.0	Log	445/tcp	SMB Remote Version Detection		Only SMBv1 is enabled on remote target
+0.0	Log	general/tcp	Traceroute		Network route from scanner (192.168.56.102) to target (192.168.56.101):  192.168.56.102 192.168.56.101  Network distance between scanner and target: 2
+0.0	Log	8180/tcp	HTTP Security Headers Detection		Missing Headers                   | More Information -------------------------------------------------------------------------------------------------
+0.0	Log	5900/tcp	VNC Server and Protocol Version Detection (TCP)		A VNC server seems to be running on this port.  The version of the VNC protocol is : RFB 003.003
+0.0	Log	5900/tcp	VNC Supported 'security types' Detection (TCP)		The remote VNC server chose security type #2 (VNC authentication)
+0.0	Log	general/tcp	jQuery Detection Consolidation		Detected jQuery  Version:       1.3.2 Location:      /mutillidae/javascript/ddsmoothmenu/jquery.min.js CPE:           cpe:/a:jquery:jquery:1.3.2  Conc
+0.0	Log	80/tcp	Web Application Scanning Consolidation / Info Reporting		The Hostname/IP "192.168.56.101" was used to access the remote host.  Generic web application scanning is disabled for this host via the "Enable gener
+0.0	Log	8180/tcp	Web Application Scanning Consolidation / Info Reporting		The Hostname/IP "192.168.56.101" was used to access the remote host.  Generic web application scanning is disabled for this host via the "Enable gener
+0.0	Log	445/tcp	Microsoft SMB Signing Disabled		SMB Signing is disabled at the server.
+0.0	Log	445/tcp	SMB Login Successful For Authenticated Checks		
+0.0	Log	445/tcp	Microsoft Windows SMB Accessible Shares		The following shares were found IPC$
+0.0	Log	5432/tcp	SSL/TLS: Report Medium Cipher Suites		'Medium' cipher suites accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA TLS_DHE_RSA_WITH_AES_128_CBC_SHA TLS_RSA_WI
+0.0					
+0.0	Log	512/tcp	rexec Detection		The rexec service is not allowing connections from this host.
+0.0	Log	59250/tcp	RMI Registry Service Detection		A RMI registry service is running at this port.
+0.0	Log	1099/tcp	RMI Registry Service Detection		A RMI registry service is running at this port.
+0.0	Log	8009/tcp	Apache JServ Protocol (AJP) v1.3 Detection (TCP)		A service supporting the Apache JServ Protocol (AJP) v1.3 seems to be running on this port.
+0.0	Log	3632/tcp	DistCC Detection		A DistCC service is running at this port.
+0.0	Log	general/tcp	SSL/TLS: Hostname discovery from server certificate		The following additional but not resolvable hostnames were detected:  ubuntu804-base.localdomain
+0.0	Log	80/tcp	HTTP Server type and version		The remote HTTP Server banner is:  Server: Apache/2.2.8 (Ubuntu) DAV/2
+0.0	Log	8180/tcp	HTTP Server type and version		The remote HTTP Server banner is:  Server: Apache-Coyote/1.1
+0.0	Log	80/tcp	HTTP Server Banner Enumeration		It was possible to enumerate the following HTTP server banner(s):  Server banner                       | Enumeration technique -----------------------
+0.0	Log	8180/tcp	HTTP Server Banner Enumeration		It was possible to enumerate the following HTTP server banner(s):  Server banner             | Enumeration technique ---------------------------------
+0.0	Log	445/tcp	SMBv1 Enabled - Active Check		SMBv1 is enabled for the SMB Server
+0.0	Log	25/tcp	Postfix SMTP Server Detection (SMTP)		Detected Postfix  Version:       unknown Location:      25/tcp CPE:           cpe:/a:postfix:postfix  Concluded from version/product identification re
+0.0	Log	111/tcp	RPC Portmapper Service Detection (TCP)	CVE-1999-0632	Detected RPC Portmapper  Location:      111/tcp CPE:           cpe:/a:portmap:portmap  Extra information: Possible known aliases / names for this prod
+0.0	Log	111/tcp	Obtain list of all port mapper registered programs via RPC		These are the registered RPC programs:  RPC program #100000 version 2 'portmapper' (portmap sunrpc rpcbind) on port 111/TCP  RPC program #100003 versi
+0.0	Log	25/tcp	Services		An SMTP server is running on this port Here is its banner :  220 metasploitable.localdomain ESMTP Postfix (Ubuntu)
+0.0	Log	22/tcp	Services		An ssh server is running on this port
+0.0	Log	23/tcp	Services		A telnet server seems to be running on this port
+0.0	Log	2121/tcp	Services		An FTP server is running on this port. Here is its banner :  220 ProFTPD 1.3.1 Server (Debian) [::ffff:192.168.56.101]
+0.0	Log	8180/tcp	Services		A web server is running on this port
+0.0	Log	3306/tcp	Services		An unknown service is running on this port. It is usually reserved for MySQL
+0.0	Log	80/tcp	Services		A web server is running on this port
+0.0	Log	5432/tcp	Services		An unknown service is running on this port. It is usually reserved for Postgres
+0.0	Log	21/tcp	Services		An FTP server is running on this port. Here is its banner :  220 (vsFTPd 2.3.4)
+0.0	Log	445/tcp	SMB/CIFS Server Detection		A CIFS server is running on this port
+0.0	Log	139/tcp	SMB/CIFS Server Detection		A SMB server is running on this port
+0.0	Log	445/tcp	SMB NativeLanMan		Detected Samba  Version:       3.0.20 Location:      445/tcp CPE:           cpe:/a:samba:samba:3.0.20  Concluded from version/product identification r
+0.0	Log	445/tcp	SMB NativeLanMan		Detected SMB workgroup: WORKGROUP Detected SMB server: Samba 3.0.20-Debian Detected OS: Debian GNU/Linux
+0.0	Log	445/tcp	SMB log in		It was possible to log into the remote host using the SMB protocol.
+0.0	Log	5432/tcp	PostgreSQL Detection (TCP)		A PostgreSQL service has been identified on this port.
+0.0	Log	25/tcp	SMTP Server type and version		Remote SMTP server banner:  220 metasploitable.localdomain ESMTP Postfix (Ubuntu)  The remote SMTP server is announcing the following available ESMTP 
+0.0	Log	25/tcp	SSL/TLS: SMTP 'STARTTLS' Command Detection		The remote SMTP server supports SSL/TLS with the 'STARTTLS' command.  The remote SMTP server is announcing the following available ESMTP commands (EHL
+0.0	Log	1524/tcp	Service Detection with 'GET' Request		A root shell of Metasploitable seems to be running on this port.
+0.0	Log	8787/tcp	Service Detection with 'GET' Request		A Distributed Ruby (dRuby/DRb) service seems to be running on this port.
+0.0	Log	514/tcp	Service Detection with 'GET' Request		A rsh service seems to be running on this port.
+0.0	Log	6697/tcp	Service Detection with 'GET' Request		An IRC server seems to be running on this port.
+0.0	Log	3306/tcp	MariaDB / Oracle MySQL Detection (MySQL Protocol)		Detected Oracle MySQL  Version:       5.0.51a-3ubuntu5 Location:      3306/tcp CPE:           cpe:/a:oracle:mysql:5.0.51a  Concluded from version/prod
+0.0	Log	6667/tcp	Service Detection with 'HELP' Request		An IRC server seems to be running on this port
+0.0	Log	2121/tcp	FTP Banner Detection		Remote FTP server banner:  220 ProFTPD 1.3.1 Server (Debian) [::ffff:192.168.56.101]  This is probably (a):  - ProFTPD  Server operating system inform
+0.0	Log	21/tcp	FTP Banner Detection		Remote FTP server banner:  220 (vsFTPd 2.3.4)  This is probably (a):  - vsftpd  Server operating system information collected via "SYST" command:  215
+0.0	Log	21/tcp	vsftpd FTP Server Detection (FTP)		Detected vsftpd  Version:       2.3.4 Location:      / CPE:           cpe:/a:vsftpd_project:vsftpd:2.3.4  Concluded from version/product identificatio
+0.0	Log	53/tcp	DNS Server Detection (TCP)		The remote DNS server banner is:  9.4.2
+0.0	Log	513/tcp	Service Detection with 'BINARY' Request		A rlogin service seems to be running on this port.
+0.0	Log	3306/tcp	Database Open Access Information Disclosure Vulnerability		Oracle MySQL can be accessed by remote attackers
+0.0	Log	6667/tcp	IRC Server Banner Detection		Unable to get the version of this service due to the error:  ERROR :Closing Link: [192.168.56.102] (Too many unknown connections from your IP)
+0.0	Log	512/tcp	Service Detection with 'BINARY' Request		A rexec service seems to be running on this port.
+0.0	Log	22/tcp	SSH Server type and version		Remote SSH server banner: SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1 Remote SSH supported authentication: none,password,publickey,hostbased,keyboard-intera
+0.0	Log	general/tcp	PostgreSQL Detection Consolidation		Detected PostgreSQL  Version:       8.3.1 Location:      5432/tcp CPE:           cpe:/a:postgresql:postgresql:8.3.1  Concluded from version/product id
+0.0	Log	5432/tcp	SSL/TLS: PostgreSQL SSL/TLS Support Detection (PostgreSQL Protocol)		The remote PostgreSQL server supports SSL/TLS.
+0.0					
+0.0	Log	general/tcp	ISC BIND Detection Consolidation		Detected ISC BIND  Version:       9.4.2 Location:      53/tcp CPE:           cpe:/a:isc:bind:9.4.2  Concluded from version/product identification resu
+0.0	Log	general/tcp	OpenSSH Detection Consolidation		Detected OpenSSH Server  Version:       4.7p1 Location:      22/tcp CPE:           cpe:/a:openbsd:openssh:4.7p1  Concluded from version/product identi
+0.0	Log	23/tcp	Telnet Service Detection		A Telnet server seems to be running on this port
+0.0	Log	23/tcp	Telnet Banner Reporting		Remote Telnet banner:                  _                  _       _ _        _     _      ____    _ __ ___   ___| |_ __ _ ___ _ __ | | ___ (_) |_ __ _
+0.0	Log	22/tcp	SSH Protocol Algorithms Supported		The following options are supported by the remote SSH service:  kex_algorithms: diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha
+0.0	Log	22/tcp	SSH Protocol Versions Supported		The remote SSH Server supports the following SSH Protocol Versions: 1.99 2.0
+0.0	Log	5432/tcp	SSL/TLS: Version Detection		The remote SSL/TLS service supports the following SSL/TLS protocol version(s):  SSLv3 TLSv1.0
+0.0	Log	25/tcp	SSL/TLS: Version Detection		The remote SSL/TLS service supports the following SSL/TLS protocol version(s):  SSLv2 SSLv3 TLSv1.0
+0.0	Log	22/tcp	PQC Key Exchange (KEX) Algorithm(s) Missing (SSH)		The remote SSH server is NOT supporting at least ONE PQC KEX algorithm.
+0.0					
+0.0	Log	5432/tcp	SSL/TLS: Collect and Report Certificate Details		The following certificate details of the remote service were collected.  Certificate details: fingerprint (SHA-1)             | ED093088706603BFD5DC23
+0.0	Log	general/tcp	ProFTPD Detection Consolidation		Detected ProFTPD  Version:       1.3.1 Location:      / CPE:           cpe:/a:proftpd:proftpd:1.3.1  Detection methods:  FTP on port 2121/tcp   FTP Ba
+0.0	Log	25/tcp	SSL/TLS: Collect and Report Certificate Details		The following certificate details of the remote service were collected.  Certificate details: fingerprint (SHA-1)             | ED093088706603BFD5DC23
+0.0	Log	25/tcp	SSL/TLS: Certificate - Self-Signed Certificate Detection		The certificate of the remote service is self signed.  Certificate details: fingerprint (SHA-1)             | ED093088706603BFD5DC237399B498DA2D4D31C6
+0.0					
+0.0	Log	general/tcp	Apache HTTP Server Detection Consolidation		Detected Apache HTTP Server  Version:       2.2.8 Location:      80/tcp CPE:           cpe:/a:apache:http_server:2.2.8  Concluded from version/product
+0.0	Log	general/tcp	Apache Tomcat Detection Consolidation		Detected Apache Tomcat  Version:       5.5.25 Location:      8180/tcp CPE:           cpe:/a:apache:tomcat:5.5.25  Concluded from version/product ident
+0.0	Log	general/tcp	PHP Detection Consolidation		Detected PHP  Version:       5.2.4 Location:      80/tcp CPE:           cpe:/a:php:php:5.2.4  Concluded from version/product identification result: X-
+0.0	Log	5432/tcp	SSL/TLS: Certificate - Self-Signed Certificate Detection		The certificate of the remote service is self signed.  Certificate details: fingerprint (SHA-1)             | ED093088706603BFD5DC237399B498DA2D4D31C6
+0.0					
+0.0	Log	general/tcp	OS Detection Consolidation and Reporting		Best matching OS:  OS:           Ubuntu 8.04 Version:      8.04 CPE:          cpe:/o:canonical:ubuntu_linux:8.04 Found by VT:  1.3.6.1.4.1.25623.1.0.1
+0.0	Log	general/tcp	Apache Struts Detection Consolidation		Detected Apache Struts  Version:       unknown Location:      /admin CPE:           cpe:/a:apache:struts  Concluded from version/product identificatio
+0.0	Log	2121/tcp	SSL/TLS: FTP Missing Support For AUTH TLS		The remote FTP server does not support the 'AUTH TLS' command.
+0.0	Log	21/tcp	SSL/TLS: FTP Missing Support For AUTH TLS		The remote FTP server does not support the 'AUTH TLS' command.
+0.0	Log	25/tcp	SSL/TLS: Report Perfect Forward Secrecy (PFS) Cipher Suites		Cipher suites supporting Perfect Forward Secrecy (PFS) are accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA TLS
+0.0					
+0.0	Log	5432/tcp	SSL/TLS: Report Perfect Forward Secrecy (PFS) Cipher Suites		Cipher suites supporting Perfect Forward Secrecy (PFS) are accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA TLS_DHE
+0.0					
+0.0	Log	25/tcp	SSL/TLS: Report Medium Cipher Suites		'Medium' cipher suites accepted by this service via the SSLv3 protocol:  TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA TLS_DHE_RSA_WITH_AES_128_CBC_SHA TLS_DHE_RS
+0.0					

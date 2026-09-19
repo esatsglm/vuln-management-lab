@@ -1,0 +1,5 @@
+target_id=cb6a1e46-294a-428b-a706-63009404620a
+task_id=7d11c7e8-8eea-443e-a170-24119da04f55
+report_id=cec756f3-fd14-464f-abfd-66cd6b28fe40
+config=Full and fast (daba56c8-73ec-11df-a475-002264764cea)
+port_list=All TCP and Nmap top 100 UDP (730ef368-57e2-11e1-a90f-406186ea4fc5)
