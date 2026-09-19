@@ -1,6 +1,6 @@
 # Vulnerability Management Report — Metasploitable2 Lab Assessment
 
-**Assessed by:** [Your Name]
+**Assessed by:** esatsglm
 **Date:** 2026-09-19
 **Target:** 192.168.56.101 (Metasploitable2, intentionally-vulnerable training host)
 **Scanner host:** 192.168.56.102 (Kali Linux)
@@ -17,9 +17,9 @@ and 10 High severity findings** were confirmed, including:
 
 - A root shell requiring no password at all (`rlogin`, port 513; and a literal backdoor
   shell on port 1524).
-- Four different services where the scanner **logged in with default or well-known
+- Five different services where the scanner **logged in with default or well-known
   credentials**: Tomcat (`tomcat`/`tomcat`), MySQL (`root`/empty), PostgreSQL
-  (`postgres`/`postgres`), VNC (`password`), and FTP/Telnet (`msfadmin`/`msfadmin`).
+  (`postgres`/`postgres`), VNC (`password`), and FTP (`msfadmin`/`msfadmin`).
 - Three services where the scanner **achieved remote code execution and got command
   output back**: the vsftpd backdoor (`id` → `uid=0(root)`), the distcc daemon (`id` →
   `uid=1(daemon)`), and Samba's `usermap_script` flaw (executed a `ping` command against
@@ -69,11 +69,15 @@ that one conclusion.
 
 ## 4. Findings — Risk-Ranked Summary
 
-Both scanners together logged **1,405 raw results**; after quality-of-detection filtering
-(≥70%) and removing pure detection/informational entries, **100 are genuine findings**:
-16 Critical, 10 High, 41 Medium, 6 Low, plus a further 27 zero-severity configuration
-notes. The table below lists every Critical and High finding, then groups Medium/Low by
-theme (full raw data in `scans/gvm_summary.tsv` and `scans/nmap_confirmed_findings.md`).
+GVM logged **1,405 raw results**; after quality-of-detection filtering (≥70%), 202
+remained, of which **73 are genuine findings with non-zero severity**: 16 Critical,
+10 High, 41 Medium, 6 Low. The other 129 are detection/informational log entries
+(102) and zero-severity records (27). Nmap's confirmed findings overlap with these and
+are cross-referenced below. The table lists every Critical and High finding, then groups
+Medium/Low by theme (full raw data in `scans/gvm_summary.tsv` and
+`scans/nmap_confirmed_findings.md`).
+
+![Findings by severity](severity_chart.png)
 
 ### Critical (16)
 
